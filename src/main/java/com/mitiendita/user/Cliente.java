@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 @Entity
 @Data
 @EqualsAndHashCode(callSuper = true)
-@DiscriminatorValue("CLIENTE") // Valor que se guardará en la columna TIPO_USUARIO para esta clase
+@DiscriminatorValue("CLIENTE") 
 public class Cliente extends Usuario {
 
     private String direccionEnvio;
